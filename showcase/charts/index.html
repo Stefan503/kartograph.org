@@ -14,9 +14,9 @@ $(function() {
 
     map.loadCSS('style.css', function() {
 
-        map.loadMap('spain.svg', function() {
+        map.loadMap('serbia.svg', function() {
             map.addLayer('context');
-            map.addLayer('spain', { key: 'nuts', title: function(d) {
+            map.addLayer('serbia', { key: 'nuts', title: function(d) {
                 return d.nuts
             } });
 
